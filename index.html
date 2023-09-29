@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="/css/css/style.css">
+
+    <link rel="stylesheet" href="/css/css/fontawesome-free-6.2.1-web/fontawesome-free-6.2.1-web/css/all.css">
+</head>
+<body>
+    <div>
+        <div class="main">
+            <img src="/css/songs/ChungTaCuaHienTai-SonTungMTP.mp3" alt="">
+            <div class="header">
+                <p class="more-header-time">...</p>
+                <i class="fa-solid fa-wifi"></i>
+                <p class="header-time">21:00</p>
+                <i class="fa-solid fa-battery-full"></i>
+            </div>
+            <!-- ---phan 1 img, button, action-->
+            <div class="action">
+                <div class="action-grid">
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <p>Feel the music</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+
+                <div class="action-grid">
+                    <p class="music-name">Chunng ta cua hien tai</p>
+                </div>
+
+                <div class="action-grid action-grid-image">
+                    <div class="cd"></div>
+                </div>
+
+                <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+
+                <div class="action-grid">
+                    <i class="fa-solid fa-rotate-right"></i>
+                    <i class="fa-solid fa-backward"></i>
+                    <div class="circle-play">
+                       <i class="fa-solid fa-pause btn-pause"></i>
+                       <i class="fa-solid fa-play btn-play"></i>
+                    </div>
+                    <i class="fa-solid fa-forward"></i>
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+
+                <audio class="audio" src=""></audio>
+            </div>
+
+            <!-- --Phan 2 List artis/name songs -->
+            <div class="songs"></div>
+
+            <!-- --Phan 3 Menu nav -->
+            <div class="nav">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-headphones-simple"></i>
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-sliders"></i>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/css/js/app.js"></script>
+</html>
